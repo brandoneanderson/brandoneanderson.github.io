@@ -38,6 +38,16 @@ a:hover {
   position: relative;
 }
 
+.construction {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 80;
+  color: black;
+  background-color: white;
+  z-index: 100;
+  position: fixed;
+}
+
 .color-a {
   color: #0078ff;
 }
