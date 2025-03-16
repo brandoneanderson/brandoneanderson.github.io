@@ -95,11 +95,13 @@
       <div class="row">
         <div class="col-md-8">
           <div class="post-box">
+            <!--
             <div class="post-thumb">
-              <img src="img/post-1.jpg" class="img-fluid" alt="">
+              <img src="img/Carls_Eats.png" class="img-fluid" alt="">
             </div>
+            -->
             <div class="post-meta">
-              <h1 class="article-title">Carls Eats Figma App Prototype</h1>
+              <h1 class="article-title" class="title-left" >Carls Eats App Prototype</h1>
               <ul>
                 <li>
                   <span class="ion-ios-person"></span>
@@ -110,19 +112,26 @@
                   <span class="ion-pricetag"></span>
                   <a href="#">App Design</a>
                 </li>
+
+              <!--
                 <li>
                   <span class="ion-chatbox"></span>
                   <a href="#">14</a>
                 </li>
+              -->
               </ul>
             </div>
             <div class="article-content">
-              <p>
-                Project idea developed as part of the Human Computer Interactions class.
-                <br> Carleton College © Winter 2025 </br> 
-              </p>
+              <div> 
+                <p>
+                  Project idea developed as part of the Human Computer Interactions class.
+                  <br> Carleton College © Winter 2025 </br> 
+                </p>
+            </div>
               
-              <h4> Problem Statement</h4>
+              
+             <div class="problem-statememt">
+              <h4> <u>Problem Statement </u> </h4>
               <p>
                 Many Carleton College students often express dissatisfaction with the taste, quality, and variety of dining hall food. 
                 This has resulted in decreased meal plan usage, increased food waste, and students seeking alternative dining options. 
@@ -131,47 +140,160 @@
                  ratings and feedback, we aim to elicit improvements in food quality while also providing a space for students to express
                   their opinions and discover new meal options.
               </p>
-              <br> </br>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="img/headshot.jpeg" class="img-fluid rounded b-shadow-a" alt="headshot picture">
+             </div>
+              
+              <div class="low-fidelity-prototype">
+                <h4> <u>Low-Fidelity Prototype</u> </h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-12">
+                        <div class="about-img">
+                          <img src="img/Carls_Eats_single.png" class="img-fluid rounded b-shadow-a" alt="Carls Eats Prototype">
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
+
+                  <div class="col-md-6">
+                    <div class="about-me pt-4 pt-md-0">
+                    
+                      <p class="lead" background-color: #ffffff>
+                        The prototype here so far accomplishes the main goals/problems as stated earleir. With the camera feature, a student 
+                        can capture a picture of their food, or upload an already uploaded picture with ease. On the meal details page, the 
+                        selected meal available for that day contains a description of the food, and image, as well as all the user reviews 
+                        it has accumulated over time. In the future, a feed will be umplemented below this informaiton to show the most recent 
+                        reviews about that meal.
+                      </p>
+                      <!-- <a href="docs/RESUME-FINAL.pdf"> <span class="hyperlink"> Resume </span></a> -->
                     </div>
-                    <p class="lead">
-                      Hi, my name is Brandon Ekow Anderson, and I am a Junior at Carleton College studying Computer Science. 
-                      I became interested in Computer Science partially due to my obsession for breaking down toys ever since I was a kid. 
-                      I find it intriguing to know how every electrical component works and how they were programmed to work with each other. 
-                      I then developed this curiosity by involving myself in badgerbots in high school to arduinos, to mobile app development, into fullstack and now into AI engineering.
-                    </p>
-                    </p>
-                    <a href="docs/RESUME-FINAL.pdf"> <span class="hyperlink"> Resume </span></a>
                   </div>
                 </div>
               </div>
+              
             
+              <!-- 
               <blockquote class="blockquote">
                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
               </blockquote>
-              <p>
-                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
-              </p>
+
+              --> 
+
+              <div class="ux-research-process">
+                <h4> <u>Team's UX Research Process</u> </h4>
+                <p>
+                  Before my team progressed in improving our prototype, we first had to collect information from our stackholders/users. We spent 
+                  a week drafting questions for a semi-interview protocol and a participatory design protocol, which we tested in class first with 
+                  fellow students and made improvements from the feedback. Once we finalized our interview protocol, we each split up to run the 
+                  interview with selected students around campus, and asked for permission to record and use their recordings for our research. 
+                  We used Otter.ai to transcribe the interview and make it easier to axial code, which I will talk about next.
+                </p>
+              </div>
+
+              
+              <div class="ux-analysis-process">
+                <h4> <u>Team's UX Analysis Process</u> </h4>
+                <p>
+                  After generating transcripts for our recorded interviews, we each read through each others transcriptions and made annotations 
+                  to excerpts or phrases in the conversation that pertained to a phenomena, condition (causal, contextual or intervening), action 
+                  and consequence in our project, which in this case is meal ratings, through a process called axial coding. Then, we each took 
+                  all of our annotations and sorted them out on Figma Jam with sticky notes, a process called Affinity Diagram. 
+                  (<a href="https://www.figma.com/board/MmStn5D4upkNxeDRG5cZjq/Affinity-Diagramming?node-id=0-1&t=HXwG06mNCqy4lnOj-1"> <span class="hyperlink"> Here is the link to the Affinity Diagram </span></a>),
+                  and we developed a code book out of it. This code book was essential to solidifying our interpretations of the axial coding process
+                    we individually did, and keep all of our ideas on the same page. We finalized our code book by coming to a consensus and revised our 
+                    axial codes once more with a paired partner in my team, for every other interview but our own.
+                </p>
+              </div>
+              
+              <div class="final-project-requirements">
+                <h4> <u>Final Project Requirements</u> </h4>
+                <p>
+                  1. Write and post detailed reviews for campus dining hall meals, provide feedback about the food, and their 
+                  overall experience. <br> 
+                  2. Users shall be able to filter and/or tag dining hall meal options and reviews based on food allergies and 
+                  dietary preferences (e.g., vegan, halal, gluten-free, nut, dairy, soy) to accommodate personal needs.  <br>
+                  3. Users shall be able to make reviews in optional formats; images, predetermined slider/star review/number system, or text input.
+                </p>
+              </div>
+              
+              <div class="mid-fidelity-prototype">
+                <h4> <u>Mid-Fidelity Prototype</u> </h4>
+                <div>
+                  <a href="https://www.loom.com/share/1e68e0648cd84100a8417d9242176741">
+                    <p>Carls Eats Prototype Demo - Watch Video</p>
+                  </a>
+                  <a href="https://www.loom.com/share/1e68e0648cd84100a8417d9242176741">
+                    <img class="img-fluid" src="https://cdn.loom.com/sessions/thumbnails/1e68e0648cd84100a8417d9242176741-ec60ed3d5f7f13af-full-play.gif">
+                  </a>
+                </div>
+              </div>
+              
+            
+              <div class="interaction-flows">
+                <div> 
+                  <h5> 
+                    <u>
+                      Interaction Flows
+                    </u> 
+                  </h5>
+                  <p>
+                    1. Clicking the camera capture button, or the photo button will capture an image and send you to the "New Post" page for 
+                       edits and reviews. 
+                  </p> 
+                  <p>
+                    2. The "New Post" page has add-ons that you can include to your post such as, images, tags, rating system and 
+                       captions. Clicking post will post your review onto the feed.
+                  </p>
+                  <p>
+                    3. On the menu page, the user is able to click the options button on the top right of the title bar and open up filter 
+                       options that the user can select to update their menu for personal needs. 
+                  </p>
+                  <p>
+                    4. The nav bar at the bottom will navigate to their corresponding pages.
+                  </p>   
+                </div>
+              </div>
+            
+              <div class="prototype-address-requirements">
+                <h4> 
+                  <u> 
+                    How my prototype addresses each of the final requirements:
+                  </u> 
+                </h4>
+
+                <p>
+                  My prototype allows the users to write and post detailed reviews with the “New Post” page. 
+                  They can write captions about the food, add tags to narrow down their selection and also 
+                  give it a star rating per the first requirement.
+                </p>
+
+                <p>
+                  My prototype allows the users to be able to filter/tag dining hall meal options and reviews 
+                  based on their food allergies and dietary preferences. This filter can be applied when posting 
+                  on the “New Post” page, and can be used to narrow down search/options on the feed and the menu page.
+                </p>
+
+                <p>
+                  My prototype also allows the users to make reviews in three optional ways. These are through images, 
+                  text/star reviews, and these can all be seen in the “New Post” page.
+                  (<a href="https://www.figma.com/proto/lEESngyv6CwbeznS6cCpms/CARLS-Eats?node-id=19-78&starting-point-node-id=27%3A207&t=AFwPzFRUTtmDHvB6-1">
+                     <span class="hyperlink"> Here is the link to my Figma Prototype 
+
+                     </span>
+                  </a>)
+                </p>
+              </div>
+
+              <div class="ux-evaluation-process">
+                <p>
+                  
+                </p>
+              </div>
+              
             </div>
           </div>
+
+
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/post-1.jpg" class="img-fluid" alt="">
